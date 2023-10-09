@@ -7,6 +7,7 @@ import android.util.Log
 import kotlinx.coroutines.*
 
 class MyBackgroundService : Service() {
+
     companion object {
         internal val TAG = MyBackgroundService::class.java.simpleName
     }
